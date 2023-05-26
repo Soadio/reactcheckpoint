@@ -1,0 +1,53 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 24px;
+  flex-grow: 1;
+}
+
+header {
+  padding: 24px;
+  background-color: rgb(27, 24, 24);
+  color: whitesmoke;
+}
+
+footer {
+  padding: 24px;
+  background-color: whitesmoke;
+  border-top: 1px solid rgb(27, 24, 24);
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+input,
+button {
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid rgba(27, 24, 24, 0.5);
+  font-family: inherit;
+  font-size: 24px;
+}
+
+button {
+  background-color: rgb(27, 24, 24);
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: 2px solid rgb(27, 24, 24);
+  outline-offset: 2px;
+}
